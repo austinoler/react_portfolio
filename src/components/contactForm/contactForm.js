@@ -21,7 +21,7 @@ const ContactForm = () => {
     // Simulate form submission
     console.log('Form submitted:', formData);
     setFormSubmitted(true);
-    // Optionally, you can reset the form fields after submission
+    
     setFormData({
       name: '',
       email: '',
